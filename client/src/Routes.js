@@ -1,6 +1,11 @@
 import react from 'react';
-import App from './App';
-import {Route, Routes} from 'react-Dom';
+import App1 from './App1';
+import {  Route, Routes } from 'react-router-dom';
+import Medical from './Medical';
+import LabTestRequestPage from './LabTestRequestPage';
+import PrescriptionFormPage from './PrescriptionFormPage';
+import ReferralForm from './ReferralForm';
+
 function Routes(){
   return(
 </Route>
