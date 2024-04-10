@@ -1,0 +1,81 @@
+.doctor-page {
+  margin-left: 250px; /* Ensure margin is greater than sidebar width */
+  padding: 20px;
+  background-image: url("./imgs/istockphoto-1198085619-1024x1024.jpg"); /* Replace with your image path */
+  background-size: cover; /* Adjust background size as needed */
+  background-position: center; /* Center the background image */
+  color: #e90909; /* Text color */
+  .doctor-page {
+    margin-left: 210px; /* Ensure margin is greater than sidebar width */
+    padding: 20px;
+    background-image: url("./imgs/istockphoto-1198085619-1024x1024.jpg"); /* Replace with your image path */
+    background-size: cover; /* Adjust background size as needed */
+    background-position: center; /* Center the background image */
+    color: #e90e0e; /* Text color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Separate columns */
+  }
+
+  .section-column {
+    width: 35%; /* Adjust width as needed */
+    height: 200%;
+  }
+
+  .section-button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px; /* Increase button padding */
+    border: none;
+    border-radius: 12px; /* Increase border radius */
+    background-color: #fffdd1; /* Button background color */
+    color: #0d2cb8; /* Button text color */
+    font-size: 30px; /* Increase font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer;
+  }
+
+  .section-button:hover {
+    background-color: #ccc; /* Hover background color */
+  }
+
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Separate columns */
+}
+
+.section-column {
+  width: 45%; /* Adjust width as needed */
+}
+
+.section-button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fffdd1; /* Button background color */
+  color: #000000; /* Button text color */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.section-button:hover {
+  background-color: #ccc; /* Hover background color */
+}
+.section-button2 {
+  cursor: pointer;
+  transition: cubic-bezier();
+  margin-left: 250px; /* Ensure margin is greater than sidebar width */
+  padding: 30px;
+  background-image: url("./imgs/iStock-1165067633.jpg.webp");
+  background-size: cover; /* Adjust background size as needed */
+  color: #e90e0e; /* Text color */
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #034463;
+  text-align: center;
+  min-width: fit-content;
+  font-size: 40px;
+}
+.section-button2:hover {
+  transform: scale(1.05);
+}
