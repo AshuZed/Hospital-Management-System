@@ -9,6 +9,13 @@ import ReferralForm from './ReferralForm';
 function Routes(){
   return(
 </Route>
+    <Routes>
+    <Route path='/' element={
+                          <div>
+                    <DoctorPage />
+                    <Sidebar/>
+                          </div>}>
+    </Route>
       <Route path="/App1" element={<App1/>}></Route>
       <Route path="/Medical" element={<Medical/>}></Route>
       <Route path="/LabTestRequestPage" element={<LabTestRequestPage/>}></Route>
