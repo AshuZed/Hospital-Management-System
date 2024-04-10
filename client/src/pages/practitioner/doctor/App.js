@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 function App() {
   return (
     <div>
-    <Navbar/>
+
     <Routes/>
     </div>
   );
